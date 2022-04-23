@@ -8,32 +8,47 @@
     <h1 class="heading">
       Visualization of Loan Transaction In the United States of America
     </h1>
-
-    <div>
-    <p>
+    <div class="container">
+    <div class="Gallery">
+    <div class="header">
+    <p> 
     <h3>Barchart of loan amount, income and amount paid by length of working</h3> 
-  </p>
-      <iframe
-        width="600"
-        height="400"
-        frameborder="0.5"
-        scrolling="no"
-        src="//plotly.com/~Onyeogulu/2.embed"
-      ></iframe>
-     
+    </p>
     </div>
-    <br />
-    <div>
-      <p> 
-      <h3>Geospatial Visualisation of loan amount, income and amount paid with the USA map</h3>
+    <iframe class="chart"
+    width="600"
+    height="400"
+    frameborder="0.5"
+    scrolling="no"
+    src="//plotly.com/~Onyeogulu/2.embed"></iframe>
+    <div class="decs">
+    <p>The bar chart above shows the average loan amount, income and amount paid by the customers categorised by their number of working experience. The working experience simply means the number of years in which the customer has consistently been employed. The barchart developed using plotly data visualisation library is an interactive chart which gives you the average loan amount, average income and average loan amount paid back by each category of customer as you hover over the chart. The x-axis of the chart represents the working experience of customers, whereas the y-axis of the chart represents income, amount paid and loan amount in USD (thousand). The legend section of the chart allows you to explore the chart with respect to any of the variables.</p>
+    </div>
+    </div>
+    
+  <br />
+  <div class="Gallery">
+    <div class="header">
+    <p> 
+    <h3>Geospatial Visualisation of loan amount, income and amount paid with the USA map</h3>
+    </p>
+    </div>
+    <iframe class="chart"
+      width="700"
+      height="400"
+      frameborder="0.5"
+      scrolling="no"
+      src="//plotly.com/~Onyeogulu/10.embed"
+    ></iframe>
+    <div class="desc">
+      <p>
+      The chart above is a geo-spatial visualisation of the United State of America. The chart shows the average loan amount, income and amount paid by the customers for the different states in the USA. The colour of each state in the chart is an indication of the average loan amount. Two states (Idaho and Iowa) are colored white because the data do not capture loan transactions for those states. Hovering over the chart gives you extra information like the average income and average amount paid for each state. 
       </p>
-      <iframe
-        width="700"
-        height="400"
-        frameborder="0.5"
-        scrolling="no"
-        src="//plotly.com/~Onyeogulu/10.embed"
-      ></iframe>
     </div>
+  </div>
+    
+    </div>
+
+    
   </body>
 </html>
